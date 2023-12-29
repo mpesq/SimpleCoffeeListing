@@ -5,4 +5,39 @@
 .card-content {
   display: flex;
   justify-content: space-between;
+  margin-top: 9rem;
+}
+
+.card-title {
+  color: #FEF7EE;
+}
+
+.card-star {
+  padding: 0.25rem 0 0 0;
+}
+
+.card-valoration {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+  
+}
+
+.card-rate {
+  color: #FEF7EE;
+}
+
+.card-votes {
+  color: #6F757C;
+}
+
+.card img {
+  border-radius: 12px;
+  position: absolute;
+}
+
+.label-popular {
+  position: relative;
+  top: 0.2rem;
+  left: 0.4rem;
 }

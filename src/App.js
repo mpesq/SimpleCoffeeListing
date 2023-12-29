@@ -7,7 +7,9 @@ function App() {
     <div className="App">
       <Card 
         title={"Capuccino"}
-        price={"5.20"} 
+        price={"5.20"}
+        rate={4.7}
+        votes={65}
       />
     </div>
   );
