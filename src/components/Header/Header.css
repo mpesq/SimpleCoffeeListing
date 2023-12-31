@@ -1,0 +1,30 @@
+
+.header-container {
+    text-align: center;
+    padding: 2rem 13rem 0 13rem;
+    position: relative;
+}
+
+.header-container h1 {
+    color: #FEF7EE;
+    font-size: 2rem;
+    margin-block-end: 0.5em;
+    font-weight: 600;
+    letter-spacing: 1px;
+    z-index: 1;
+    position: relative;
+}
+
+.header-container p {
+    position: relative;
+    color: #6F757C;
+    font-size: 1rem;
+    z-index: 2;
+}
+
+#garabato {
+    position: absolute;
+    top: 0.8rem; /* Ajusta a la posición deseada */
+    right: 13rem; /* Ajusta a la posición deseada */
+    z-index: 0; /* Asegura que el SVG esté detrás de otros elementos */
+}
